@@ -1,0 +1,180 @@
+.topnavs {
+  margin-bottom: auto;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 2px #4b4949;
+          box-shadow: 2px 2px 2px #4b4949;
+}
+
+#bookNav {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  width: 135px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#bookNav:hover {
+  background-color: #503130;
+  color: #f0e9e9;
+}
+
+#home {
+  background-color: #f5a9a9;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 160px;
+  padding-top: 140px;
+}
+
+.hometitle h1 {
+  font-family: 'Allura', cursive;
+  font-size: 4.5rem;
+}
+
+.hometitle p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.4rem;
+}
+
+#bookNow {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  width: 250px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#bookNow:hover {
+  background-color: #503130;
+  color: #f0e9e9;
+}
+
+@media screen and (max-width: 768px) {
+  #bookNow {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    position: relative;
+    width: 250px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #bookNow:hover {
+    background-color: #503130;
+    color: #f0e9e9;
+  }
+}
+
+#mystory {
+  background-color: #fff;
+  color: black;
+  margin-top: auto;
+  padding-bottom: 1em;
+}
+
+#mystory h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 3.2rem;
+  margin-top: .5em;
+}
+
+#mystory p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 992px) {
+  #mystory {
+    background-color: #fff;
+    color: black;
+  }
+  #mystory h1 {
+    font-family: 'Bad Script', cursive;
+    font-size: 3.2rem;
+    margin-top: .5em;
+  }
+  #mystory p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+  }
+}
+
+#services {
+  background-color: #f5a9a9;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
+
+#services h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 3.2rem;
+  margin-top: .5em;
+}
+
+#services h3 {
+  font-size: 1.3rem;
+}
+
+#services p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+  background-color: silver;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
+
+#contact h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 3.2rem;
+  margin-top: .5em;
+}
+
+footer {
+  background-color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer .contactInfo {
+  color: white;
+}
+
+footer .fab {
+  font-size: 40px;
+  color: white;
+  padding: 5px;
+}
+
+footer .fab:hover {
+  font-size: 42px;
+  color: silver;
+}
+
+@media screen and (max-width: 768px) {
+  .fab {
+    float: none;
+    margin-left: auto;
+    margin-right: 15%;
+    font-size: 30px;
+    color: white;
+  }
+  .fab:hover {
+    font-size: 32px;
+    color: silver;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
