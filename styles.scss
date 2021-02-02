@@ -1,8 +1,7 @@
-
-
 .navbar {
     box-shadow: 2px 2px 2px #4b4949;
     margin-bottom: auto;
+   
 }
 
 #bookNav {
@@ -19,13 +18,37 @@
 
 }
 
+@media screen and (max-width: 768px) {
+
+    #bookNav {
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        width: 105px;
+        padding-bottom: 4px;
+        padding-top: 4px;  
+        &:hover {
+            background-color: rgb(80, 49, 48);
+            color: rgb(240, 233, 233);
+        }
+    
+    }
+}
+
 #home {
     background-color: #f5a9a9;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-bottom: 160px;
-    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-top: 90px;
 }
+
+@media screen and (max-width: 768px) {
+    #home {
+    background-color: #f5a9a9;
+    padding-bottom: auto;
+    padding-top: auto;
+    }
+}
+
 
 .hometitle {
     h1 {
@@ -35,6 +58,19 @@
     p {
         font-family: 'Bebas Neue', cursive;
         font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hometitle {
+        h1 {
+            font-family: 'Allura', cursive;
+            font-size: 3.5rem;
+        }
+        p {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1rem;
+        }
     }
 }
 
@@ -64,10 +100,10 @@
         font-weight: bold;
         position: relative;
         width: 250px;
-        padding-bottom: 15px;
-        padding-top: 15px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
         
         &:hover {
             background-color: rgb(80, 49, 48);
@@ -76,15 +112,18 @@
     }
 }
 
-#mystory {
-    background-color: #fff;
+
+.storyBox {
+    background-color: silver;
+
 }
 
-.myStory1 {
-    background-color: #fff;
+
+#myStory1 {
+    background-color:#f5a9a9;
     color: black;
-    margin-top: auto;
-    padding-bottom: 1em;
+    
+
     h1 {
         font-family: 'Bad Script', cursive;
         font-size: 3.2rem;
@@ -98,14 +137,14 @@
 }
 
 @media screen and (max-width: 992px) {
-    .myStory1 {
-        background-color: #fff;
+    #myStory1 {
+        background-color:#f5a9a9;
         color: black;
     
         h1 {
             font-family: 'Bad Script', cursive;
             font-size: 3.2rem;
-            margin-top: .5em;
+            
         }
         p {
             font-family: 'Times New Roman', Times, serif;
@@ -115,20 +154,25 @@
 }
 
 #services {
-    background-color: #f5a9a9;
+    background-color: white;
+    
+
+    .break {   
+        background-color: white;
+        
+    }
 }
+
+
 
 .servicesDetails {
     background-color: #f5a9a9;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-bottom: 1em;
-    padding-top: .5em;
+   
 
     h1 {
         font-family: 'Bad Script', cursive;
         font-size: 3.2rem;
-        margin-top: .5em;
+        
        
     }
     h3 {
@@ -141,25 +185,32 @@
 }
 
 
-
 #contact {
+    background-color: #f5a9a9;
+    
+
+    .break {   
+        background-color: #f5a9a9;
+   
+}
+
+
+
+
+#contactMe {
     background-color: silver;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-bottom: 1em;
-    padding-top: .5em;
+   
 
     h1 {
         font-family: 'Bad Script', cursive;
         font-size: 3.2rem;
-        margin-top: .5em;
+        
     }
 }
 
 footer {
     background-color: black;
-    margin-top: auto;
-    margin-bottom: auto;
+    
 
     .contactInfo {
         color: white;
@@ -178,23 +229,4 @@ footer {
         }
         
     }
-}
-
-@media screen and (max-width: 768px) {
-
-    .fab {
-        float: none; 
-        margin-left: auto;
-        margin-right: 15%;
-        font-size: 30px;
-        color: white;
-        
-        &:hover {
-            font-size: 32px;
-            color: silver;
-
-        }
-        
-    }
-
 }

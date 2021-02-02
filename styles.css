@@ -18,12 +18,33 @@
   color: #f0e9e9;
 }
 
+@media screen and (max-width: 768px) {
+  #bookNav {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    width: 105px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+  }
+  #bookNav:hover {
+    background-color: #503130;
+    color: #f0e9e9;
+  }
+}
+
 #home {
   background-color: #f5a9a9;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-bottom: 160px;
-  padding-top: 140px;
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    background-color: #f5a9a9;
+    padding-bottom: auto;
+    padding-top: auto;
+  }
 }
 
 .hometitle h1 {
@@ -34,6 +55,17 @@
 .hometitle p {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hometitle h1 {
+    font-family: 'Allura', cursive;
+    font-size: 3.5rem;
+  }
+  .hometitle p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+  }
 }
 
 #bookNow {
@@ -59,10 +91,10 @@
     font-weight: bold;
     position: relative;
     width: 250px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   #bookNow:hover {
     background-color: #503130;
@@ -70,60 +102,60 @@
   }
 }
 
-#mystory {
-  background-color: #fff;
+.storyBox {
+  background-color: black;
+  color: white;
+
 }
 
-.myStory1 {
+
+#myStory1 {
   background-color: #fff;
-  color: black;
-  margin-top: auto;
-  padding-bottom: 1em;
+  
 }
 
-.myStory1 h1 {
+#myStory1 h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
   margin-top: .5em;
 }
 
-.myStory1 p {
+#myStory1 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
 }
 
 @media screen and (max-width: 992px) {
-  .myStory1 {
+  #myStory1 {
     background-color: #fff;
     color: black;
   }
-  .myStory1 h1 {
+  #myStory1 h1 {
     font-family: 'Bad Script', cursive;
     font-size: 3.2rem;
-    margin-top: .5em;
+    margin-top: auto;
   }
-  .myStory1 p {
+  #myStory1 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
   }
 }
 
 #services {
-  background-color: #f5a9a9;
+  background-color: white;
+}
+
+#services .break {
+  background-color: white;
 }
 
 .servicesDetails {
   background-color: #f5a9a9;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-bottom: 1em;
-  padding-top: .5em;
 }
 
 .servicesDetails h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
-  margin-top: .5em;
 }
 
 .servicesDetails h3 {
@@ -135,6 +167,29 @@
 }
 
 #contact {
+  background-color: #f5a9a9;
+  margin: auto;
+}
+
+#contact .break {
+  background-color: #f5a9a9;
+  padding-top: 0.7em;
+  padding-bottom: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    margin: auto;
+    background-color: #f5a9a9;
+  }
+  #contact .break {
+    background-color: #f5a9a9;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+}
+
+#contactMe {
   background-color: silver;
   margin-top: auto;
   margin-bottom: auto;
@@ -142,7 +197,7 @@
   padding-top: .5em;
 }
 
-#contact h1 {
+#contactMe h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
   margin-top: .5em;
@@ -168,18 +223,3 @@ footer .fab:hover {
   font-size: 42px;
   color: silver;
 }
-
-@media screen and (max-width: 768px) {
-  .fab {
-    float: none;
-    margin-left: auto;
-    margin-right: 15%;
-    font-size: 30px;
-    color: white;
-  }
-  .fab:hover {
-    font-size: 32px;
-    color: silver;
-  }
-}
-/*# sourceMappingURL=styles.css.map */
