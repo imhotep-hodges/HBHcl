@@ -1,10 +1,7 @@
-.topnavs {
-  margin-bottom: auto;
-}
-
 .navbar {
   -webkit-box-shadow: 2px 2px 2px #4b4949;
           box-shadow: 2px 2px 2px #4b4949;
+  margin-bottom: auto;
 }
 
 #bookNav {
@@ -75,33 +72,37 @@
 
 #mystory {
   background-color: #fff;
+}
+
+.myStory1 {
+  background-color: #fff;
   color: black;
   margin-top: auto;
   padding-bottom: 1em;
 }
 
-#mystory h1 {
+.myStory1 h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
   margin-top: .5em;
 }
 
-#mystory p {
+.myStory1 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
 }
 
 @media screen and (max-width: 992px) {
-  #mystory {
+  .myStory1 {
     background-color: #fff;
     color: black;
   }
-  #mystory h1 {
+  .myStory1 h1 {
     font-family: 'Bad Script', cursive;
     font-size: 3.2rem;
     margin-top: .5em;
   }
-  #mystory p {
+  .myStory1 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
   }
@@ -109,23 +110,27 @@
 
 #services {
   background-color: #f5a9a9;
+}
+
+.servicesDetails {
+  background-color: #f5a9a9;
   margin-top: auto;
   margin-bottom: auto;
   padding-bottom: 1em;
   padding-top: .5em;
 }
 
-#services h1 {
+.servicesDetails h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
   margin-top: .5em;
 }
 
-#services h3 {
+.servicesDetails h3 {
   font-size: 1.3rem;
 }
 
-#services p {
+.servicesDetails p {
   font-family: 'Times New Roman', Times, serif;
 }
 
