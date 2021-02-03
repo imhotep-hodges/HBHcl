@@ -105,13 +105,11 @@
 .storyBox {
   background-color: black;
   color: white;
-
 }
-
 
 #myStory1 {
   background-color: #fff;
-  
+  color: black;
 }
 
 #myStory1 h1 {
@@ -133,20 +131,11 @@
   #myStory1 h1 {
     font-family: 'Bad Script', cursive;
     font-size: 3.2rem;
-    margin-top: auto;
   }
   #myStory1 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
   }
-}
-
-#services {
-  background-color: white;
-}
-
-#services .break {
-  background-color: white;
 }
 
 .servicesDetails {
@@ -166,47 +155,17 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-#contact {
-  background-color: #f5a9a9;
-  margin: auto;
-}
-
-#contact .break {
-  background-color: #f5a9a9;
-  padding-top: 0.7em;
-  padding-bottom: 0.9em;
-}
-
-@media screen and (max-width: 768px) {
-  #contact {
-    margin: auto;
-    background-color: #f5a9a9;
-  }
-  #contact .break {
-    background-color: #f5a9a9;
-    padding-top: auto;
-    padding-bottom: auto;
-  }
-}
-
 #contactMe {
   background-color: silver;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-bottom: 1em;
-  padding-top: .5em;
 }
 
 #contactMe h1 {
   font-family: 'Bad Script', cursive;
   font-size: 3.2rem;
-  margin-top: .5em;
 }
 
 footer {
   background-color: black;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 footer .contactInfo {
@@ -223,3 +182,47 @@ footer .fab:hover {
   font-size: 42px;
   color: silver;
 }
+
+@media screen and (max-width: 762px) {
+  .fab {
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin: auto;
+  }
+  .fab:hover {
+    font-size: 32px;
+    color: silver;
+  }
+}
+
+/*------/ Back to top button /------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: silver;
+  color: black;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -114,13 +114,14 @@
 
 
 .storyBox {
-    background-color: silver;
-
-}
+    background-color: black;
+    color: white;
+  
+  }
 
 
 #myStory1 {
-    background-color:#f5a9a9;
+    background-color: #fff;
     color: black;
     
 
@@ -138,7 +139,7 @@
 
 @media screen and (max-width: 992px) {
     #myStory1 {
-        background-color:#f5a9a9;
+        background-color: #fff;
         color: black;
     
         h1 {
@@ -150,16 +151,6 @@
             font-family: 'Times New Roman', Times, serif;
             font-size: 1.1rem;
         }
-    }
-}
-
-#services {
-    background-color: white;
-    
-
-    .break {   
-        background-color: white;
-        
     }
 }
 
@@ -184,15 +175,6 @@
     }
 }
 
-
-#contact {
-    background-color: #f5a9a9;
-    
-
-    .break {   
-        background-color: #f5a9a9;
-   
-}
 
 
 
@@ -230,3 +212,47 @@ footer {
         
     }
 }
+
+@media screen and (max-width: 762px) {
+    .fab {
+        font-size: 30px;
+        color: white;
+        padding: 5px;
+        margin: auto;
+        &:hover {
+            font-size: 32px;
+            color: silver;
+
+        }
+        
+    }
+}
+
+/*------/ Back to top button /------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: silver;
+    color: black;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+  }
+  
+  .back-to-top i {
+    padding-top: 12px;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
+  }
