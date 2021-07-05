@@ -202,11 +202,11 @@ footer {
     
     .fab {
         font-size: 40px;
-        color: white;
+        color: silver;
         padding: 5px;
         &:hover {
             font-size: 42px;
-            color: silver;
+            color: white;
 
         }
         
@@ -216,12 +216,12 @@ footer {
 @media screen and (max-width: 762px) {
     .fab {
         font-size: 30px;
-        color: white;
+        color: silver;
         padding: 5px;
         margin: auto;
         &:hover {
             font-size: 32px;
-            color: silver;
+            color: white;
 
         }
         
