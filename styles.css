@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   -webkit-box-shadow: 2px 2px 2px #4b4949;
           box-shadow: 2px 2px 2px #4b4949;
@@ -5,6 +9,7 @@
 }
 
 #bookNav {
+  display: none;
   color: white;
   background-color: black;
   font-weight: bold;
